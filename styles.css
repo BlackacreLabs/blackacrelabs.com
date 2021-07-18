@@ -1,0 +1,16 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.37;
+}
+
+header[role=banner],
+main[role=main],
+footer[role=contentinfo] {
+  margin: 1rem auto;
+  max-width: 37rem;
+}
+
+footer[role=contentinfo] {
+  font-size: 85%;
+  text-align: right;
+}
