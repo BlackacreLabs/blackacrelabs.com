@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 site=blackacrelabs.com
-scp ./*.html ./*.css "$site:/var/www/$site/"
+scp ./*.html ./*.svg ./*.png ./*.css "$site:/var/www/$site/"
